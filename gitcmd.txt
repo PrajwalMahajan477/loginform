@@ -1,0 +1,13 @@
+// to download a git repo
+git clone <url>
+
+// To check status
+git status
+
+// To upload on git
+1) git add <filename>  or git add .
+2) git commit -m <summary>
+3) git push origin <branchname>
+
+// to download updated files
+git pull
