@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title></title>
+</head>
+ <body>    
+  <button onclick="offfun()">turn on bulb</button>   
+     <img class="image1" src="b1.jpg" style="width: 200px;">
+<button onclick="onfun()">turn off bulb </button>
+</body>
+<script type="text/javascript">
+   function onfun() {
+      var img = document.getElementsByClass('image1');
+      img.src = "b1.jpg";
+      console.write("On");
+   }
+      function offfun() {
+      document.getElementsByIdClass('image1').src='b0.jpg';
+      console.write("off");
+   }
+</script>
+</html>
